@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-12T01:27:38.936Z" agent="5.0 (Macintosh)" etag="QYS0OcnOKeosS5nio98s" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-12T21:32:06.988Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="xKpxfMGZnCxE75ZcBy4Z" version="14.7.7" type="github">
   <diagram name="Page-1" id="6133507b-19e7-1e82-6fc7-422aa6c4b21f">
-    <mxGraphModel dx="1426" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,10 +22,10 @@
         <mxCell id="235556782a83e6d0-6" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="235556782a83e6d0-1" vertex="1">
           <mxGeometry y="70" width="270" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="H9A49DeLrnGwZCXKj2Uz-13" value="&lt;div&gt;username - name of user borrowing tool&lt;/div&gt;&lt;div&gt;date - string w the return date designated for &lt;br&gt;&lt;/div&gt;&lt;div&gt;reservation&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="235556782a83e6d0-1">
+        <mxCell id="H9A49DeLrnGwZCXKj2Uz-13" value="&lt;div&gt;username - name of user borrowing tool&lt;/div&gt;&lt;div&gt;date - string w the return date designated for &lt;br&gt;&lt;/div&gt;&lt;div&gt;reservation&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="235556782a83e6d0-1" vertex="1">
           <mxGeometry y="78" width="270" height="152" as="geometry" />
         </mxCell>
-        <mxCell id="H9A49DeLrnGwZCXKj2Uz-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="78961159f06e98e8-69">
+        <mxCell id="H9A49DeLrnGwZCXKj2Uz-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="78961159f06e98e8-69" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="570" y="320" as="targetPoint" />
           </mxGeometry>
@@ -39,46 +39,46 @@
         <mxCell id="78961159f06e98e8-77" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="78961159f06e98e8-69" vertex="1">
           <mxGeometry y="52" width="280" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="H9A49DeLrnGwZCXKj2Uz-4" value="&lt;div&gt;name - name of tool&lt;/div&gt;&lt;div&gt;quantity - total quantity of tools &lt;br&gt;&lt;/div&gt;&lt;div&gt;reservations - array of rez&#39; for tool&lt;/div&gt;&lt;div&gt;_____________________________&lt;br&gt;&lt;/div&gt;&lt;div&gt;render() - method for fomatthing the data of tool in a nice string that shows in webpage&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="410" y="230" width="200" height="160" as="geometry" />
+        <mxCell id="H9A49DeLrnGwZCXKj2Uz-4" value="&lt;div&gt;name - name of tool&lt;/div&gt;&lt;div&gt;quantity - total quantity of tools &lt;br&gt;&lt;/div&gt;&lt;div&gt;reservations - array of rez&#39; for tool&lt;/div&gt;&lt;div&gt;_____________________________&lt;br&gt;&lt;/div&gt;&lt;div&gt;render() - method for fomathing the data of tool in a nice string that shows in webpage&lt;br&gt;&lt;/div&gt;&lt;div&gt;getAvailableQuantity - gets quant. available for rent&lt;/div&gt;&lt;div&gt;summarize() prints tool summary&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="411" y="230" width="200" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="H9A49DeLrnGwZCXKj2Uz-7" value="ToolLibrary" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+        <mxCell id="H9A49DeLrnGwZCXKj2Uz-7" value="ToolLibrary" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
           <mxGeometry x="690" y="166" width="280" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="H9A49DeLrnGwZCXKj2Uz-8" value="represents library of tools" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="H9A49DeLrnGwZCXKj2Uz-7">
+        <mxCell id="H9A49DeLrnGwZCXKj2Uz-8" value="represents library of tools" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="H9A49DeLrnGwZCXKj2Uz-7" vertex="1">
           <mxGeometry y="26" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="H9A49DeLrnGwZCXKj2Uz-9" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="H9A49DeLrnGwZCXKj2Uz-7">
+        <mxCell id="H9A49DeLrnGwZCXKj2Uz-9" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="H9A49DeLrnGwZCXKj2Uz-7" vertex="1">
           <mxGeometry y="52" width="280" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="H9A49DeLrnGwZCXKj2Uz-10" value="&lt;div&gt;tools - an array of tools&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;_________________________&lt;/div&gt;&lt;div&gt;listTools() - responsible for formatting array &lt;br&gt;&lt;/div&gt;&lt;div&gt;of tools in a readable format&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="H9A49DeLrnGwZCXKj2Uz-7">
+        <mxCell id="H9A49DeLrnGwZCXKj2Uz-10" value="&lt;div&gt;tools - an array of tools&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;_________________________&lt;/div&gt;&lt;div&gt;listTools() - responsible for formatting array &lt;br&gt;&lt;/div&gt;&lt;div&gt;of tools in a readable format&lt;br&gt;&lt;/div&gt;&lt;div&gt;summarizeLibary()&amp;nbsp; - delivers a summary of all tools&lt;/div&gt;&lt;div&gt;quantity and avaibility&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="H9A49DeLrnGwZCXKj2Uz-7" vertex="1">
           <mxGeometry y="60" width="280" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="H9A49DeLrnGwZCXKj2Uz-14" value="Composite of tools" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="H9A49DeLrnGwZCXKj2Uz-14" value="Composite of tools" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="760" y="50" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="H9A49DeLrnGwZCXKj2Uz-19" value="" style="endArrow=classic;html=1;" edge="1" parent="1" target="H9A49DeLrnGwZCXKj2Uz-20">
+        <mxCell id="H9A49DeLrnGwZCXKj2Uz-19" value="" style="endArrow=classic;html=1;" parent="1" target="H9A49DeLrnGwZCXKj2Uz-20" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="220" y="380" as="sourcePoint" />
             <mxPoint x="340" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="H9A49DeLrnGwZCXKj2Uz-20" value="component " style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="H9A49DeLrnGwZCXKj2Uz-20" value="component " style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="350" y="460" width="210" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="H9A49DeLrnGwZCXKj2Uz-21" value="component " style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="H9A49DeLrnGwZCXKj2Uz-21" value="component " style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="710" y="430" width="210" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="H9A49DeLrnGwZCXKj2Uz-25" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+        <mxCell id="H9A49DeLrnGwZCXKj2Uz-25" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="720" y="460" as="sourcePoint" />
             <mxPoint x="830" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="H9A49DeLrnGwZCXKj2Uz-26" value="Composite of Reservations" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="H9A49DeLrnGwZCXKj2Uz-26" value="Composite of Reservations" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="420" y="50" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="H9A49DeLrnGwZCXKj2Uz-27" value="Component of Tool" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="H9A49DeLrnGwZCXKj2Uz-27" value="Component of Tool" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="105" y="20" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
